@@ -225,12 +225,13 @@ def is_the_operation_asociative(multiplication_table, table_set):
     return True
 
 '''
-Function to if the a given multiplication table qualifies as a group (we call several methods already defined)
+Function to determine if the a given multiplication table qualifies as a group 
+(we call several methods already defined)
 Input: 
  * a 2D array -> multiplication_table
  * an array (the domain) -> table_set
 Output:
- * a boolean (is the table a group)
+ * a boolean (is the table a group?)
 '''
 def is_matrix_a_group(multiplication_table, table_set):
     if (is_square_matrix(multiplication_table)):
@@ -264,10 +265,10 @@ def print_program_info():
     
     print("--------------------------------------------------")
     print("Homework description:")
-    print("We will determine if 4 sample matrices")
+    print("We will determine if sample matrices")
     print("(loaded to this program) are considered")
     print("groups or not.")
-    print("We will also determine if those 4 matrices")
+    print("We will also determine if those matrices")
     print("are latin squares or not")
     print("--------------------------------------------------")
     print("\n")
@@ -338,11 +339,30 @@ def main():
 
     table_set_4 = ["e", "a", "b", "c"]
     
+    # Representation of symmetries of a regular hexagon
+    sample_table_5 = [["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l"],
+                      ["b", "c", "d", "e", "f", "a", "h", "i", "j", "k", "l", "g"],
+                      ["c", "d", "e", "f", "a", "b", "i", "j", "k", "l", "g", "h"],
+                      ["d", "e", "f", "a", "b", "c", "j", "k", "l", "g", "h", "i"],
+                      ["e", "f", "a", "b", "c", "d", "k", "l", "g", "h", "i", "j"],
+                      ["f", "a", "b", "c", "d", "e", "l", "g", "h", "i", "j", "k"],
+                      ["g", "h", "i", "j", "k", "l", "a", "b", "c", "d", "e", "f"],
+                      ["h", "i", "j", "k", "l", "g", "b", "c", "d", "e", "f", "a"],
+                      ["i", "j", "k", "l", "g", "h", "c", "d", "e", "f", "a", "b"],
+                      ["j", "k", "l", "g", "h", "i", "d", "e", "f", "a", "b", "c"],
+                      ["k", "l", "g", "h", "i", "j", "e", "f", "a", "b", "c", "d"],
+                      ["l", "g", "h", "i", "j", "k", "f", "a", "b", "c", "d", "e"]]
+
+    # Representation of the set of all possible rotations and reflections of a regular hexagon
+    table_set_5 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l"]
+    
+    
     table_and_set_pairs = []
     table_and_set_pairs.append([sample_table_1, table_set_1])
     table_and_set_pairs.append([sample_table_2, table_set_2])
     table_and_set_pairs.append([sample_table_3, table_set_3])
     table_and_set_pairs.append([sample_table_4, table_set_4])
+    table_and_set_pairs.append([sample_table_5, table_set_5])
     
     print_program_info()
     print_results(table_and_set_pairs)
