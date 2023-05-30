@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>964d5edf36bb4be3a4db13c00f276bf4</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="07221625" class="cell markdown">
+<h1
+id="comparación-de-dos-diferentes-implementaciones-del-euler-totient">Comparación
+de dos diferentes implementaciones del Euler Totient</h1>
+<h2 id="autor-carlos-arturo-murcia-andrade">Autor: Carlos Arturo Murcia
+Andrade</h2>
+<h3 id="objetivo">Objetivo</h3>
+<p>Este Jupyter Notebook busca implementar 2 métodos distintos del Euler Totient y comparar su eficiencia con base en los resultados obtenidos.</p>
+<h3 id="definición-de-euler-totient">Definición de Euler Totient</h3>
+<p>La función &#632; de Euler u Euler Totient es:</p>
+<p>&#632;(n) &equals; |{x: 1 &#8804; x &#8804; n &and; mcd(n, x) &equals; 1}|</p>
+<p>el número de enteros positivos x &#8804; n que no tienen divisores comunes con n.</p>
+<h4 id="lema">Lema</h4>
+<ol>
+  <li>&#632;(1) &equals; 1</li>
+  <li>Si p es primo, &#632;(p^a) = p^a - p^(a-1)</li>
+  <li>Si mcd(m,n) &equals; 1, &#632;(m*n) &equals; &#632;(m) * &#632;(n)</li>
+</ol>
+<h3 id="desarrollo-del-algoritmo">Desarrollo del algoritmo</h3>
+<h4 id="algoritmo-1-fuerza-bruta-usando-la-definición">Algoritmo 1:
+Fuerza bruta (usando la definición)</h4>
+<p>Para este caso, se crea el método "calculate_euler_totient_using_brute_force". Para calcular el Euler totient se usa un simple ciclo for el cual itera todos los valores entre 1 y n. En cada iteración se verifica si el máximo común divisor de x y n es igual a 1 (este cálculo usa la función math.gcd() de la librería math). De ser verdadero, se suma 1 a la variable "euler_totient" (la variable que se retornará de la función). En caso contrario, no se hace nada.</p>
+<p>Si ejecutamos la función con valores n&#8321; = 300 y n&#8322; = 1300, se evidenciará que &#632;(n&#8321;) = 80 y &#632;(n&#8322;) = 480. Esto se puede ver en los resultados del código mostrado a continuación.</p>
+<p>Nota: Si el número es negativo, se convertirá a positivo antes de hacer cualquier cálculo.</p>
+</div>
+<div id="dfb9a6dd" class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Import math Library</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">&#39;&#39;&#39;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">Description: Function to determine the Euler Totient of a given number using its definition.</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">Euler Totient: Ø(n) = |{x: 1 &lt;= x &lt;= n &amp; gcd(n, x) = 1}|</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">Input: a number (an integer) -&gt; n.</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">Output: a number (another integer) -&gt; euler_totient.</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">&#39;&#39;&#39;</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculate_euler_totient_using_brute_force(n):</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    euler_totient <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="co"># If n is negative, we will convert it into positive.</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (n <span class="op">&lt;</span> <span class="dv">0</span>):</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>        n <span class="op">*=</span> <span class="op">-</span><span class="dv">1</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="co"># range(1, n+1) will start the loop at 1 and will end it at n</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, n<span class="op">+</span><span class="dv">1</span>):</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (math.gcd(x, n) <span class="op">==</span> <span class="dv">1</span>):</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>            euler_totient <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> euler_totient</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>n1 <span class="op">=</span> <span class="dv">300</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>n2 <span class="op">=</span> <span class="dv">1300</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Original number: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(n1))</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Ø(&quot;</span> <span class="op">+</span> <span class="bu">str</span>(n1) <span class="op">+</span> <span class="st">&quot;) = &quot;</span> <span class="op">+</span> <span class="bu">str</span>(calculate_euler_totient_using_brute_force(n1)))</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Original number: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(n2))</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Ø(&quot;</span> <span class="op">+</span> <span class="bu">str</span>(n2) <span class="op">+</span> <span class="st">&quot;) = &quot;</span> <span class="op">+</span> <span class="bu">str</span>(calculate_euler_totient_using_brute_force(n2)))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Original number: 300
+Ø(300) = 80
+Original number: 1300
+Ø(1300) = 480
+</code></pre>
+</div>
+</div>
+<div id="785da9d2" class="cell markdown">
+<h4 id="algoritmo-2-usando-el-lema">Algoritmo 2: Usando el lema</h4>
+<p>Antes de implementar el lema, es preciso implementar un par de funciones auxiliares. La primera se encarga de obtener todos los factores primos del número al cual se quiere implementar el Euler Totient, y esta función se denominará "get_prime_factors". El algoritmo detrás de esta función es el siguiente:</p>
+<ol>
+    <li>Se crea un arreglo vacío que contendrá los factores primos que se encontrarán.</li>
+    <li>Se divide el número por dos, tantas veces como sea posible, hasta que no sea divisible entre dos (y se agregará dos tantas veces el número sea divisible entre dos al arreglo de factores primos).</li>
+    <li>Se verificará si cada número desde tres hasta la raíz cuadrada del número (que se dividió varias veces entre dos). Si el número es divisible, se agrega el divisor al arreglo de factores primos, y luego, se hace la división.</li>
+    <li>Si todavía queda un número mayor que dos, entonces, ese número no es divisible por ningún factor primo menor que si mismo (es decir, ese número es primo). Entonces, se agrega ese número finalmente al arreglo de factores primos.</li>
+    <li>Se retorna el arreglo de los factores primos encontrados.</li>
+</ol>
+<p>Podemos usar los números n&#8321; = 300, n&#8322; = 1300 y n&#8323; = 1000 para probar el algoritmo implementado. Se podrá ver que los factores primos son [2, 2, 3, 5, 5] para n&#8321;, [2, 2, 5, 5, 13] para n&#8322; y [2, 2, 2, 5, 5, 5] para n&#8323;. Es decir, n&#8321; = 300 = 2 * 2 * 3 * 5 * 5, n&#8322; = 1300 = 2 * 2 * 5 * 5 * 13, n&#8323; = 1000 = 2 * 2 * 2 * 5 * 5 * 5. El código a continuación calcula los factores primos de los tres números mencionados, brindando los mismos resultados.</p>
+</div>
+<div id="f037fc37" class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Import math Library</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">&#39;&#39;&#39;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">Description: Function to determine all prime numbers up to a given number (which is the upper limit).</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co">Input: a number (an integer) -&gt; n.</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co">Output: an array (which contains all found prime numbers) -&gt; list_of_primes.</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co">&#39;&#39;&#39;</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_prime_factors(n):</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Create an empty list to store the prime factors found.</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    list_of_prime_factors <span class="op">=</span> []</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="co"># We divide the number by 2 as many times as possible until it is no longer divisible by 2</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> (n <span class="op">%</span> <span class="dv">2</span> <span class="op">==</span> <span class="dv">0</span>):</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>        list_of_prime_factors.append(<span class="dv">2</span>)</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>        n <span class="op">=</span> math.floor(n <span class="op">/</span> <span class="dv">2</span>)</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Starts at 3, ends at the square root of n (after performing the operations above), </span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>    <span class="co"># and increases by 2 (so it will iterate over all possible odd numbers up to sqrt of n)</span></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">3</span>, <span class="bu">int</span>(math.sqrt(n)) <span class="op">+</span> <span class="dv">1</span>, <span class="dv">2</span>):</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span> (n <span class="op">%</span> i <span class="op">==</span> <span class="dv">0</span>):</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>            list_of_prime_factors.append(i)</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>            n <span class="op">=</span> math.floor (n <span class="op">/</span> i)</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>    <span class="co"># If the prime factor found is not greater than its square root (from the operations made above)</span></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>    <span class="co"># then, the prime number should be the same number that is left (from the for loop)</span></span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (n <span class="op">&gt;</span> <span class="dv">2</span>):</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>        list_of_prime_factors.append(n)</span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Return the list of prime factors found.</span></span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> list_of_prime_factors</span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>n3 <span class="op">=</span> <span class="dv">1000</span></span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Original number: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(n1))</span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;List of prime factors of the above number: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(get_prime_factors(n1)))</span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Original number: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(n2))</span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;List of prime factors of the above number: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(get_prime_factors(n2)))</span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Original number: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(n3))</span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;List of prime factors of the above number: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(get_prime_factors(n3)))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Original number: 300
+List of prime factors of the above number: [2, 2, 3, 5, 5]
+Original number: 1300
+List of prime factors of the above number: [2, 2, 5, 5, 13]
+Original number: 1000
+List of prime factors of the above number: [2, 2, 2, 5, 5, 5]
+</code></pre>
+</div>
+</div>
+<div id="70590c57" class="cell markdown">
+<p>La segunda función auxiliar es la que se encarga de listar las bases y exponentes con base en los factores primos que se encontraron (es decir, lista los factores primos seguidos de la cantidad de veces en la que se repiten). La función encargada es "list_bases_and_exponents" (definida en el código después de esta sección de texto). El algoritmo detrás de este método es el siguiente:</p>
+<ol>
+    <li>Se crea un arreglo vacío que listará los pares de bases y exponentes</li>
+    <li>Se inicializan dos variables que contendrán la base y el exponente “en el momento” de la iteración (current_base y current_exponent respectivamente).</li>
+    <li>Se agrega la primera base (que será el primer elemento de la lista de factores) a la lista de bases y exponentes (list_of_bases_and_exponents).</li>
+    <li>Se comienza a iterar la lista de factores. Si el elemento en la posición de la lista de factores es diferente a la base inicializada, entonces, se agrega el valor de los exponentes (current_exponent) contados a la lista de bases y exponentes (list_of_bases_and_exponents). Además, se restablece el valor del exponente (current_exponent) y se agrega la base a la lista de bases y exponentes (list_of_bases_and_exponents.append(current_base)). En caso contrario, se incrementa el valor del exponente.</li>
+    <li>Al finalizar el ciclo, quedará el valor del exponente del último factor primo, este será agregado a la lista de bases y exponentes.</li>
+    <li>Se retorna el arreglo de bases y exponentes (este tendrá la estructura [base, exponente, base, exponente, base, exponente...]).</li>
+</ol>
+<p>Se puede demostrar los resultados de este algoritmo usando los mismos números definidos anteriormente (n&#8321; = 300, n&#8322; = 1300 y n&#8323; = 1000). Se podrá ver que la serie de bases y exponentes serán [2, 2, 3, 1, 5, 2] para n&#8321;, [2, 2, 5, 2, 13, 1] para n&#8322; y [2, 3, 5, 3] para n&#8323;. O sea, n&#8321; = 300 = 2^2 * 3^1 * 5^2, n&#8322; = 1300 = 2^2 * 5^2 * 13^1 y n&#8323; = 1000 = 2^3 * 5^3.</p>
+</div>
+<div id="f8ae8595" class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Import math Library</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co">&#39;&#39;&#39;</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co">Description: Function to determine all bases and exponents from the list of prime factors.</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co">Input: an array -&gt; list_of_prime_factors.</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co">Output: an array -&gt; list_of_bases_and_exponents.</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="co">&#39;&#39;&#39;</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> list_bases_and_exponents(list_of_prime_factors):</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Initialize an empty list to store the base-exponent pairs.</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    list_of_bases_and_exponents <span class="op">=</span> []</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Initialize the current base and exponent.</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>    current_base <span class="op">=</span> list_of_prime_factors[<span class="dv">0</span>]</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    current_exponent <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Add the first base to the list of bases and exponents.</span></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>    list_of_bases_and_exponents.append(current_base)</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Loop through the list of prime factors.</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="bu">len</span>(list_of_prime_factors)):</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>        <span class="co"># If the current prime factor is different from the current base, </span></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>        <span class="co"># add the current exponent to the list of bases and exponents, </span></span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>        <span class="co"># reset the current exponent to 1, and update the current base.</span></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (list_of_prime_factors[i] <span class="op">!=</span> current_base):</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>            list_of_bases_and_exponents.append(current_exponent)</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>            current_exponent <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>            current_base <span class="op">=</span> list_of_prime_factors[i]</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>            list_of_bases_and_exponents.append(current_base)</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>        <span class="co"># If the current prime factor is the same as the current base, </span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>        <span class="co"># increment the current exponent.</span></span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>            current_exponent <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Add the last exponent to the list of bases and exponents.</span></span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>    list_of_bases_and_exponents.append(current_exponent)</span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Return the list of bases and exponents.</span></span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> list_of_bases_and_exponents</span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>prime_factors_of_n1 <span class="op">=</span> get_prime_factors(n1)</span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>bases_and_exponents_of_n1 <span class="op">=</span> list_bases_and_exponents(prime_factors_of_n1)</span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>prime_factors_of_n2 <span class="op">=</span> get_prime_factors(n2)</span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>bases_and_exponents_of_n2 <span class="op">=</span> list_bases_and_exponents(prime_factors_of_n2)</span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a>prime_factors_of_n3 <span class="op">=</span> get_prime_factors(n3)</span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a>bases_and_exponents_of_n3 <span class="op">=</span> list_bases_and_exponents(prime_factors_of_n3)</span>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Original number: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(n1))</span>
+<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;List of prime factors of the above number: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(prime_factors_of_n1))</span>
+<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Bases and exponents of based on the above factors: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(bases_and_exponents_of_n1))</span>
+<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Original number: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(n2))</span>
+<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;List of prime factors of the above number: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(prime_factors_of_n2))</span>
+<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Bases and exponents of based on the above factors: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(bases_and_exponents_of_n2))</span>
+<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Original number: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(n3))</span>
+<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;List of prime factors of the above number: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(prime_factors_of_n3))</span>
+<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Bases and exponents of based on the above factors: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(bases_and_exponents_of_n3))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Original number: 300
+List of prime factors of the above number: [2, 2, 3, 5, 5]
+Bases and exponents of based on the above factors: [2, 2, 3, 1, 5, 2]
+Original number: 1300
+List of prime factors of the above number: [2, 2, 5, 5, 13]
+Bases and exponents of based on the above factors: [2, 2, 5, 2, 13, 1]
+Original number: 1000
+List of prime factors of the above number: [2, 2, 2, 5, 5, 5]
+Bases and exponents of based on the above factors: [2, 3, 5, 3]
+</code></pre>
+</div>
+</div>
+<div id="35d66dc2" class="cell markdown">
+<p>Habiendo definido las funciones auxiliares “get_prime_factors” y “list_bases_and_exponents”, se puede aplicar el lema asociado al Euler Totient. La función se llama “calculate_euler_totient_using_lemma”, y el algoritmo detrás de su funcionamiento es el siguiente:</p>
+<ol>
+    <li>Si el número ingresado es n = 1, entonces el euler_totient será 1 (en cumplimiento con el caso 1 del lema).</li>
+    <li>En caso contrario, primero se calculan los factores primos del número (que se almacenan en la variable "prime_factors_of_n"), luego, se listan las bases y los exponentes de los factores primos calculados (que se almacenan en la variable "bases_and_exponents_of_n").</li>
+    <li>Se itera sobre el arreglo que contiene las bases y los exponentes de a dos en dos (es decir, se itera sobre sus bases). Como todas las bases son factores primos, entonces sus máximos comunes divisores son 1 por lo que se pueden separar (cumpliendo el caso 3 del lema).</li>
+    <li>En cada iteración se eleva el número en el índice actual (la base) a la potencia del índice siguiente (el exponente) y se resta con la potencia del número del índice actual elevada a la potencia del índice siguiente menos uno (esto cumple con el caso 2 del lema, dado que la base es prima).</li>
+    <li>Los resultados se van multiplicando (una vez por iteración) a la variable "euler_totient" que fue inicializada en uno. Una vez terminado el ciclo, se retorna el resultado obtenido en "euler_totient".</li>
+</ol>
+<p>Nota: Si el número es negativo, se convertirá a positivo antes de hacer cualquier cálculo.</p>
+<p>Para probar la función mencionada, se decidió usar un número más grande, en este caso, se toma n&#8324; = 256984 y se prueban ambos algoritmos (tanto la que haya el Euler Totient a fuerza bruta como con el uso del lema), se puede evidenciar que &#632;(n&#8324;) = 101376 en ambos casos.</p>
+</div>
+<div id="3fb68bef" class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Import math Library</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co">&#39;&#39;&#39;</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co">Description: Function to determine the Euler Totient of a given number using its lemma.</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co">Lemma:</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="co">1. Ø(1) = 1</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="co">2. If p is a prime number, Ø(p^a) = p^a - p^(a - 1)</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="co">3. If gcd(m, n) = 1, Ø(m * n) = Ø(m) * Ø(n)</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="co">Input: a number (an integer) -&gt; n.</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="co">Output: a number (another integer) -&gt; euler_totient.</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="co">&#39;&#39;&#39;</span></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculate_euler_totient_using_lemma(n):</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>    euler_totient <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>    <span class="co"># If n is negative, we will convert it into positive.</span></span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (n <span class="op">&lt;</span> <span class="dv">0</span>):</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>        n <span class="op">*=</span> <span class="op">-</span><span class="dv">1</span></span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Base case: Ø(1) = 1</span></span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (n <span class="op">==</span> <span class="dv">1</span>):</span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>        euler_totient <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Else: cases 2 and 3 of the lemma</span></span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (n <span class="op">&gt;</span> <span class="dv">1</span>):</span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Initialize variable to 1, so we can make calculations below.</span></span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>        euler_totient <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Find the prime factors of n and get their bases and exponents.</span></span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>        prime_factors_of_n <span class="op">=</span> get_prime_factors(n)</span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>        bases_and_exponents_of_n <span class="op">=</span> list_bases_and_exponents(prime_factors_of_n)</span>
+<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb7-35"><a href="#cb7-35" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Calculate the Euler Totient using the lemma for each base and exponent pair.</span></span>
+<span id="cb7-36"><a href="#cb7-36" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Note that cases two and three of the lemma are included in the for cycle, as we have already decomposed</span></span>
+<span id="cb7-37"><a href="#cb7-37" aria-hidden="true" tabindex="-1"></a>        <span class="co"># the number in their prime factors.</span></span>
+<span id="cb7-38"><a href="#cb7-38" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(bases_and_exponents_of_n), <span class="dv">2</span>):            </span>
+<span id="cb7-39"><a href="#cb7-39" aria-hidden="true" tabindex="-1"></a>            euler_totient <span class="op">*=</span> (<span class="bu">pow</span>(bases_and_exponents_of_n[i], bases_and_exponents_of_n[i <span class="op">+</span> <span class="dv">1</span>])</span>
+<span id="cb7-40"><a href="#cb7-40" aria-hidden="true" tabindex="-1"></a>                              <span class="op">-</span> <span class="bu">pow</span>(bases_and_exponents_of_n[i], bases_and_exponents_of_n[i <span class="op">+</span> <span class="dv">1</span>] <span class="op">-</span> <span class="dv">1</span>))</span>
+<span id="cb7-41"><a href="#cb7-41" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb7-42"><a href="#cb7-42" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> euler_totient</span>
+<span id="cb7-43"><a href="#cb7-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-44"><a href="#cb7-44" aria-hidden="true" tabindex="-1"></a>n4 <span class="op">=</span> <span class="dv">256984</span></span>
+<span id="cb7-45"><a href="#cb7-45" aria-hidden="true" tabindex="-1"></a>euler_totient_of_n5_using_brute_force <span class="op">=</span> calculate_euler_totient_using_brute_force(n4)</span>
+<span id="cb7-46"><a href="#cb7-46" aria-hidden="true" tabindex="-1"></a>euler_totient_of_n5_using_lemma <span class="op">=</span> calculate_euler_totient_using_lemma(n4)</span>
+<span id="cb7-47"><a href="#cb7-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-48"><a href="#cb7-48" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Original number: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(n4))</span>
+<span id="cb7-49"><a href="#cb7-49" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Using brute force. Ø(&quot;</span> <span class="op">+</span> <span class="bu">str</span>(n4) <span class="op">+</span> <span class="st">&quot;) = &quot;</span> <span class="op">+</span> <span class="bu">str</span>(calculate_euler_totient_using_brute_force(n4)))</span>
+<span id="cb7-50"><a href="#cb7-50" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Using lemma. Ø(&quot;</span> <span class="op">+</span> <span class="bu">str</span>(n4) <span class="op">+</span> <span class="st">&quot;) = &quot;</span> <span class="op">+</span> <span class="bu">str</span>(calculate_euler_totient_using_lemma(n4)))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Original number: 256984
+Using brute force. Ø(256984) = 101376
+Using lemma. Ø(256984) = 101376
+</code></pre>
+</div>
+</div>
+<div id="e7e8f6ad" class="cell markdown">
+<h3 id="eficiencia-del-algoritmo">Eficiencia del algoritmo</h3>
+<p>El algoritmo que usa el lema es más eficiente para valores de n que sean grandes. La complejidad del algoritmo que usa fuerza bruta (calculate_euler_totient_using_brute_force) es de O(n), mientras que la complejidad del algoritmo que usa el lema (calculate_euler_totient_using_lemma) es de O(sqrt(n) + k). O(sqrt(n)) es la complejidad del algoritmo que descompone el número en sus factores primos (get_prime_factors) y O(k) es la complejidad del algoritmo encargado de listar las bases y los exponentes de los factores primos (list_bases_and_exponents, que dependerá del número de factores primos diferentes que se hayan calculado).</p>
+</div>
+</body>
+</html>
