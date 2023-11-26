@@ -12,4 +12,5 @@ Exercises from the course Discrete Math II (2025964-2 | 2023-I | UNAL)
 10. Difference equations workshop (PDF file, LaTeX source code and images compressed in a ZIP file)
 11. Extended euclidean algorithm and multiplicative inverse (Jupyter Notebook, HTML backup)
 12. Exercises (PDF file, LaTeX source code and images compressed in a ZIP file)
+
 Final project: RSA Algorithm (Jupyter Notebook, HTML backup)
